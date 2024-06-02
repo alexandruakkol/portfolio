@@ -3907,7 +3907,6 @@ td:last-child {
 
 .s-about__social {
 	margin-top     : var(--vspace-0_75);
-	justify-content: center;
 }
 
 .s-about__social svg path,
@@ -4172,9 +4171,8 @@ td:last-child {
 	font-size       : calc(var(--text-size) * 0.95);
 	font-weight     : 300;
 	color           : rgba(255, 255, 255, 0.6);
-	background-color: #181818;
+	background-color: var(--color-3);
 	padding-top     : var(--vspace-3);
-	padding-bottom  : var(--vspace-3);
 }
 
 .s-footer a {
@@ -4684,4 +4682,13 @@ td:last-child {
 .certi{
 	margin-top:10px;		
 	gap:7px;
+	padding: 5px;
+	border-radius: 7px;
+	color: var(--color-2-dark);
+}
+.certi:hover{
+	background-color: hsl(48.27deg 53.9% 89.36%);
+}
+.email{
+	font-size: clamp(2rem, 7vw, 50px);
 }
